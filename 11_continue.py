@@ -1,8 +1,6 @@
-import random
-réponse=input()
-while réponse != "non":
-    print("Est ce que on continues?")
+réponse=input("Est ce que tu veux continuer? ")
+while réponse !="non":
+    réponse=input("Est ce que tu veux continuer? ")
     if réponse =="non":
-    print("Ok bye!")
-    
+        print("Ok bye!")
     
